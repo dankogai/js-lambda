@@ -3,7 +3,7 @@
 js-lambda
 =========
 
-DSL for, but not limited to, lambda calculus.
+DSL for, but not limited to, the lambda calculus.
 
 USAGE
 -----
@@ -95,7 +95,7 @@ var succ = λ("n:λ(f:λ(x:f(n(f)(x))))"),
 add = λ("m:λ(n:m("+succ+")(n))");	// λ("m:λ(n:m(succ)(n))") does not work
 ````
 
-This is because `lambda` `eval()`s to compile the function but lexicals are out of its scope.
+This is because `lambda()` needs to `eval()` to compile the function but lexicals are out of its scope.
 
 ### memoization
 
@@ -123,3 +123,4 @@ SEE ALSO
 
 + http://docs.python.org/2/tutorial/controlflow.html#lambda-forms
 + http://www.ruby-doc.org/core-2.0/Kernel.html#method-i-lambda
++ https://developer.mozilla.org/en-US/docs/JavaScript/Reference/arrow_functions
