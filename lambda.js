@@ -1,5 +1,5 @@
 /*
- * $Id: lambda.js,v 0.1 2013/04/04 11:25:17 dankogai Exp dankogai $
+ * $Id: lambda.js,v 0.2 2013/04/04 16:19:55 dankogai Exp dankogai $
  *
  * lambda.js
  *
@@ -28,7 +28,7 @@
         }
         return body + src;
     };
-    var lambda = function(src, nomemo, lv) {
+    function lambda(src, nomemo, lv) {
         if (!nomemo && src in lambda.memo) return lambda.memo[src];
         if (!lv) lv = 0;
         var parts = src.match(/^([^:]*):([\s\S]+)/),

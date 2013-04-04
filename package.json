@@ -1,6 +1,6 @@
 {
   "name": "js-lambda",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "DSL for lambda calculus",
   "main": "lambda.js",
   "directories": {
