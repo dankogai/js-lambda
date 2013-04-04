@@ -11,7 +11,7 @@ USAGE
 ### In Browser
 
 ````html
-<script src="lambda.js"></script>
+<script src="lambda.js" charset="UTF-8"></script>
 ````
 
 ### node.js
