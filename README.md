@@ -123,4 +123,4 @@ SEE ALSO
 
 + http://docs.python.org/2/tutorial/controlflow.html#lambda-forms
 + http://www.ruby-doc.org/core-2.0/Kernel.html#method-i-lambda
-+ https://developer.mozilla.org/en-US/docs/JavaScript/Reference/arrow_functions
++ http://wiki.ecmascript.org/doku.php?id=harmony:arrow_function_syntax
