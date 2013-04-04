@@ -3,7 +3,7 @@
 js-lambda
 =========
 
-DSL for λ calculus
+DSL for, but not limited to, lambda calculus.
 
 USAGE
 -----
@@ -105,7 +105,7 @@ By default, the compiled function is [memoized].  Suppose you have:
 
 ````javascript
 function rms(ary) {
-	return Math.sqrt(ary.reduce(λ("t,x:t+x*x"), 0))
+    return Math.sqrt(ary.reduce(λ("t,x:t+x*x"), 0))
 }
 ````
 

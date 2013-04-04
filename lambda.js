@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: lambda.js,v 0.1 2013/04/04 11:25:17 dankogai Exp dankogai $
  *
  * lambda.js
  *

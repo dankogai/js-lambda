@@ -1,0 +1,28 @@
+{
+  "name": "js-lambda",
+  "version": "0.0.1",
+  "description": "DSL for lambda calculus",
+  "main": "lambda.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+      "mocha" : "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dankogai/js-lambda.git"
+  },
+  "keywords": [
+    "lambda",
+    "λ",
+    "DSL"
+  ],
+  "author": "Dan Kogai",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "bcd815ecb46ebfd594d8ddf9acbc1c6a7933b5e2"
+}
